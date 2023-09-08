@@ -11,6 +11,16 @@
 
     <button type="button" id="tambah" onclick="tambahSaldo()">Tambah Saldo</button>
     <button type="button" id="kurang" onclick="kurangiSaldo()">Kurangi Saldo</button>
+
     <script src="bank_account.js"></script>
+    
+    <script src="banking_system.js"></script>
+    <script>
+        const account = new BankAccount();
+
+        account.deposit(1000); // Simulasi deposit 1000 USD
+        account.withdraw(500); // Simulasi penarikan 500 USD
+    </script>
+
 </body>
 </html>
