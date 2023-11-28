@@ -1,5 +1,5 @@
 // Deklarasi variabel saldo dengan nilai awal 0
-
+// contoh
 
 let saldo = 1000;
 
